@@ -10,7 +10,11 @@ Fork repositori github ini lalu clone ke dalam folder project.
 git clone https://github.com/aratane/Project_TeamA37.git
 ```
 
+## Pengerjaan
+Ketika sudah di clone, lalu open folder projeknya menggunakan text editor, silahkan kerjakan bagian masing-masing, untuk penandaan sudah saya tandai pada struktur html dengan komentar (<!-- Contoh Komentar-->)
 ## Push ke github
+
+Jika sudah selesai mengerjakan tugasnya silahkan push atau pull request ke github
 
 ```bash
 # tambah file yang diganti / file baru
@@ -24,6 +28,7 @@ git pull
 
 ```
 
+Untuk tutorial lengkap bisa cek disini https://progate.com/courses/git
 ## Contributing
 Permintaan fork dipersilakan. Untuk perubahan besar, silakan buka issue / chat group telegram terlebih dahulu untuk membahas apa yang ingin Anda ubah.
 
