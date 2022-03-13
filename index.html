@@ -1,78 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team A37</title>
-
-    <!-- Untuk Style -->
+    <title>Progate</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-    <!-- CONTOH (HAPUS JIKA PROJECT SUDAH MULAI DAN SIAP) -->
-    <!-- <div style="text-align: center;">
-        <h1>PROJECT TEAM A37</h1>
-        <p>DTS & PROGATE ACADEMY KELAS D</p>
-    </div> -->
-
-
-    <!-- TUGAS BAGIAN HEADER @IHSAN -->
-    <header class="header">
-        <input type="checkbox" class="menu-btn" id="menu-btn">
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-
-        <div class="logo">
-            <img src="/assets/img/ilogo.png" alt="">
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+            </div>
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="header-right">
+                <a href="#">Pelajaran</a>
+                <a href="#">Daftar</a>
+                <a href="#" class="login">Log in</a>
+            </div>
         </div>
-        <ul class="menu main-menu">
-
-            <li><a href="#">Beranda<span><i class="fas fa-caret-up"></i></span></a></li>
-            <li><a href="#">Destinasi<span><i class="fas fa-caret-up"></i></span></a></li>
-            <li><a href="#">Kuliner<span><i class="fas fa-caret-up"></i></span></a></li>
-            <li><a href="#">Pegunungan<span><i class="fas fa-caret-up"></i></span></a></li>
-            <li><a href="#">Kontak<span><i class="fas fa-caret-up"></i></span></a></li>
-        </ul>
-
     </header>
-    <div class="img">
-        <h1 class="judul">Selamat Datang !!</h1>
-        <p>Berwisata lebih menyenangkan <br> dengan dipandu oleh petugas kami :)</p>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <!-- <h1>BELAJAR CODING.</h1>
-        <h1>BELAJAR MENJADI LEBIH KREATIF.</h1>
-        <p>Progate adalah platform online untuk belajar pemrograman.</p>
-        <p>Kami menawarkan lingkungan pemrograman yang lengkap untuk mempermudah Anda memulai.</p> -->
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>BELAJAR CODING.</h1>
+            <h1>BELAJAR MENJADI LEBIH KREATIF.</h1>
+            <p>Progate adalah platform online untuk belajar pemrograman.</p>
+            <p>Kami menawarkan lingkungan pemrograman yang lengkap untuk mempermudah Anda memulai.</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn signup">Daftar dengan Email</a>
+                <p>atau</p>
+                <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Daftar dengan Facebook</a>
+                <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Daftar dengan Twitter</a>
+            </div>
+        </div>
     </div>
-
-    <!-- Tugas bagian main (After header, background image atau tampilan awal) -->
-    <div>
-
+    <div class="lesson-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>Cari tau dari mana anda mau memulai!</h2>
+            </div>
+            <div class="lessons">
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/html.png">
+                        <p>HTML & CSS</p>
+                    </div>
+                    <p class="txt-contents">Dua bahasa yang digunakan untuk membangun struktur dan design tambilan website anda.</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+                        <p>jQuery</p>
+                    </div>
+                    <p class="txt-contents">JavaScript Library yang cepat, kaya akan fitur dan mudah digunakan untuk menangani animasi dan permintaan Ajax.</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/ruby.png">
+                        <p>Ruby</p>
+                    </div>
+                    <p class="txt-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+                </div>
+                <div class="lesson">
+                    <div class="lesson-icon">
+                        <img src="https://prog-8.com/images/html/advanced/php.png">
+                        <p>PHP</p>
+                    </div>
+                    <p class="txt-contents">Bahasa scripting "open-source" yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
     </div>
-
-    <!-- Tugas Bagian Body (Konten) -->
-    <div>
-
+    <div class="message-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
+                <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+            </div>
+            <span class="btn message">Mulai belajar</span>
+        </div>
     </div>
-
-    <!-- Tugas Bagian Footer -->
     <footer>
-
+        <div class="container">
+            <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+            <p>Learn to code, learn to be creative.</p>
+        </div>
     </footer>
-
 </body>
 
 </html>
-
-<!-- 
-    Untuk 1 orang terakhir tugasnya membuat animasi pada halaman konten atau dimanapun.
-    
-    
--->
