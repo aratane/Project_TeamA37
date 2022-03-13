@@ -34,5 +34,7 @@ Permintaan fork dipersilakan. Untuk perubahan besar, silakan buka issue / chat g
 
 Pastikan untuk memperbarui selalu fork dengan yang sesuai.
 
+Happy Coding !!!
+
 ## License
 [GNU](https://github.com/aratane/Project_TeamA37/blob/main/LICENSE.md)
