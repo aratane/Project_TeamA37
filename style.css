@@ -197,24 +197,82 @@ header {
     box-shadow: none;
 }
 
-footer img {
-    width: 125px;
-}
-
-footer p {
-    color: #b3aeb5;
-    font-size: 12px;
-}
-
-footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
 .container .menu-icon {
     color: white;
     float: right;
     font-size: 25px;
     padding: 21px 0;
     display: none;
+}
+
+/* CSS Footer */
+footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(34, 49, 52);
+}
+
+footer h2 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.footer-left {
+    float: left;
+    max-width: 60%;
+    margin-bottom: 55px;
+}
+
+.footer-right {
+    float: right;
+    text-align: end;
+}
+
+.navigations li {
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.navigations li a{
+    color: #b3aeb5;
+    opacity: 0.8;
+}
+
+.navigations li a:hover{
+    opacity: 1;
+}
+
+.sosmed-logo {
+    margin-bottom: 25px;
+}
+
+.sosmed-logo i {
+    color: white;
+    margin-left: 25px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #239b76;
+    opacity: 0.9;
+    border-radius: 90%;
+    transition: all 0.5s;
+}
+
+.sosmed-logo i:hover {
+    opacity: 1;
+}
+
+.footer-bottom p {
+    font-size: 18px;
+    width: 100%;
+    border-top: 1px solid #b3aeb5;
+    padding-top: 10px;
+    text-align: center;
 }
