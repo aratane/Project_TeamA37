@@ -16,7 +16,7 @@
 
 /* Untuk Smartphone */
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 717px) {
     .header-right {
         display: none;
     }
@@ -26,7 +26,7 @@
     .btn {
         width: 100%;
     }
-    .facebook {
+    .google {
         margin-bottom: 10px;
     }
     .top-wrapper {
@@ -46,4 +46,5 @@
     footer {
         text-align: center;
     }
+    .navigations {}
 }
