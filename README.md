@@ -36,7 +36,7 @@ Pastikan untuk memperbarui selalu fork dengan yang sesuai.
 
 Happy Coding !!!
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=Your_GitHub_Username/Your_GitHub_Repository_Name)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=aratane/Project_TeamA37)
 
 ## License
 [GNU](https://github.com/aratane/Project_TeamA37/blob/main/LICENSE.md)
